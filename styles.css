@@ -7,7 +7,7 @@ body {
   cursor: move;
   overflow: scroll;
 }
-img {
+.image {
     border-radius: 50%;
     height: 150px;
     width: auto;
@@ -28,15 +28,31 @@ a{
 a:hover{
     color: hsla(216,100%,90%,.5) 
 }
-h1{
+h2{
     font-family: 'Amatic SC', cursive;
     color: hsla(216,95%,100%,1);
     font-size: 40pt;
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    color: hsla(216,95%,100%,1);
+    font-size: 45pt;
+    text-align: center;
 }
 #about{
     height: 100%;
     width: 100%;
     background-color: #8A8198;
+}
+#portfolio{
+    height: 100%;
+    width: 100%;
+    background-color: #726683;
+}
+#contact{
+    height: 100%;
+    width: 100%;
+    background-color: #8A8198;;
 }
 p{
     color: #10001B;
@@ -48,9 +64,58 @@ li{
     color: #10001B;
     font-family: 'Raleway', sans-serif;
     font-size: 15pt;
+    list-style: none;
     
 }
+.icon{
+    width: 150px;
+    height: auto;
+}
+#open{
+    opacity: 0;
+}
 
+#email:hover #shut{
+    opacity: 0;
+}
+#email:hover #open{
+    opacity: 1;
+}
+#mail_to{
+    color: #F2F2F2;
+    opacity: 0;
+    font-size: 26pt;
+}
+#email:hover #mail_to{
+    opacity: 1;
+}
+#github_2{
+    opacity: 0;
+}
+#github_link{
+    color: #F2F2F2;
+    opacity: 0;
+    font-size: 26pt; 
+}
+#github:hover #github_1{
+    opacity: 0;
+}
+#github:hover #github_2{
+    opacity: 1;
+}
 
+#github:hover #github_link{
+    opacity: 1;
+}
+#linkedin_link{
+    color: #F2F2F2;
+    opacity: 0;
+    font-size: 26pt; 
+}
+#linkedin:hover #linkedin_link{
+    opacity: 1;
+}
 
-
+#linkedin:hover #linkedin_icon{
+    transform: rotateY(180deg);
+}

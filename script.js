@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+  
 var c = document.getElementById("canv");
 var $ = c.getContext("2d");
 
@@ -164,5 +165,10 @@ function run() {
 }
     go();
     run();
+    $("#about_link").click(function() {
+        document.querySelector('#about').scrollIntoView({ 
+            behavior: 'smooth' 
+    })
+})
 
 });
