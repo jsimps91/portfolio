@@ -1,0 +1,56 @@
+@import url(https://fonts.google.com/specimen/Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  background: hsla(0, 0%, 0%, 1);
+  margin: 0;
+  overflow: hidden;
+  cursor: move;
+  overflow: scroll;
+}
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    margin: auto;
+    display: inline-block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 1pt solid black;
+}
+a{
+    margin: 28px;
+    color: hsla(216,95%,85%,.3);
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24pt;
+}
+a:hover{
+    color: hsla(216,100%,90%,.5) 
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    color: hsla(216,95%,100%,1);
+    font-size: 40pt;
+}
+#about{
+    height: 100%;
+    width: 100%;
+    background-color: #8A8198;
+}
+p{
+    color: #10001B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    text-align: justify;
+}
+li{
+    color: #10001B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    
+}
+
+
+
+
