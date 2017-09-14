@@ -52,7 +52,7 @@ h1{
 #contact{
     height: 100%;
     width: 100%;
-    background: linear-gradient(#B277AF, #B894AF, #B8B1AF)
+    background: linear-gradient(#B277AF, #B894AF)
 }
 p{
     color: hsla(216,95%,100%,1);
@@ -118,4 +118,7 @@ li{
 
 #linkedin:hover #linkedin_link{
     opacity: 1;
+}
+#linkedin:hover #linkedin_icon {
+    transform: rotateY(180deg);
 }
