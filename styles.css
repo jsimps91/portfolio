@@ -24,14 +24,17 @@ a{
     text-decoration: none;
     font-family: 'Amatic SC', cursive;
     font-size: 24pt;
+    outline: 0;
 }
 a:visited {
     text-decoration: none;
     border: none;
+    outline: 0;
 }
 a:active {
     text-decoration: none;
     border: none;
+    outline: 0;
 }
 a:hover{
     color: hsla(216,100%,90%,.5) 
