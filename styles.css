@@ -116,6 +116,6 @@ li{
     opacity: 1;
 }
 
-#linkedin:hover #linkedin_icon{
-    transform: rotateY(180deg);
+#linkedin:hover #linkedin_link{
+    opacity: 1;
 }

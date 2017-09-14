@@ -165,10 +165,9 @@ function run() {
 }
     go();
     run();
-    $("#about_link").click(function() {
-        document.querySelector('#about').scrollIntoView({ 
-            behavior: 'smooth' 
-    })
+    $("#about_link").onclick(function() {
+        window.scrollTo(0, 700);
 })
+
 
 });
