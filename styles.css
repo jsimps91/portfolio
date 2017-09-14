@@ -42,26 +42,26 @@ h1{
 #about{
     height: 100%;
     width: 100%;
-    background-color: #8A8198;
+    background: linear-gradient(#240621, #4A104C, #703160);
 }
 #portfolio{
     height: 100%;
     width: 100%;
-    background-color: #726683;
+    background: linear-gradient(#703160,#9C5799, #B277AF)
 }
 #contact{
     height: 100%;
     width: 100%;
-    background-color: #8A8198;;
+    background: linear-gradient(#B277AF, #B894AF, #B8B1AF)
 }
 p{
-    color: #10001B;
+    color: hsla(216,95%,100%,1);
     font-family: 'Raleway', sans-serif;
     font-size: 15pt;
     text-align: justify;
 }
 li{
-    color: #10001B;
+    color: hsla(216,95%,100%,1);
     font-family: 'Raleway', sans-serif;
     font-size: 15pt;
     list-style: none;

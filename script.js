@@ -1,5 +1,7 @@
 $( document ).ready(function() {
-  
+
+
+var first =   document.getElementById("about");
 var c = document.getElementById("canv");
 var $ = c.getContext("2d");
 
