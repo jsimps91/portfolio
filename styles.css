@@ -42,17 +42,17 @@ h1{
 #about{
     height: 100%;
     width: 100%;
-    background: linear-gradient(#240621, #4A104C, #703160);
+    background: linear-gradient(#240621, #4A104C);
 }
 #portfolio{
     height: 100%;
     width: 100%;
-    background: linear-gradient(#703160,#9C5799, #B277AF)
+    background: linear-gradient(#4A104C, #703160)
 }
 #contact{
     height: 100%;
     width: 100%;
-    background: linear-gradient(#B277AF, #B894AF)
+    background: linear-gradient( #703160, #A665A3)
 }
 p{
     color: hsla(216,95%,100%,1);
