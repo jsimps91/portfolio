@@ -133,3 +133,8 @@ li{
 #linkedin:hover #linkedin_icon {
     transform: rotateY(180deg);
 }
+#pinackle{
+    position: absolute;
+    top: 10%;
+}
+}
