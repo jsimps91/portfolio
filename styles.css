@@ -18,6 +18,22 @@ body {
     backface-visibility: hidden;
     border: 1pt solid black;
 }
+.screenshot{
+    width: 20%;
+    height: auto;
+}
+.screenshot:hover{
+    cursor: pointer;
+}
+.modal-backdrop {
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+  }
 a{
     margin: 28px;
     color: hsla(216,95%,85%,.3);
@@ -25,6 +41,27 @@ a{
     font-family: 'Amatic SC', cursive;
     font-size: 24pt;
     outline: 0;
+}
+.link{
+    margin: 28px;
+    color: hsla(216,95%,85%,.3);
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24pt;
+    outline: 0;
+}
+.link:visited{
+    text-decoration: none;
+    border: none;
+    outline: 0;
+}
+.link:active{
+    text-decoration: none;
+    border: none;
+    outline: 0;    
+}
+.link:hover{
+    color: hsla(216,100%,90%,.5)  
 }
 a:visited {
     text-decoration: none;
@@ -39,12 +76,12 @@ a:active {
 a:hover{
     color: hsla(216,100%,90%,.5) 
 }
-h2{
+.head2{
     font-family: 'Amatic SC', cursive;
     color: hsla(216,95%,100%,1);
     font-size: 40pt;
 }
-h1{
+.head1{
     font-family: 'Amatic SC', cursive;
     color: hsla(216,95%,100%,1);
     font-size: 45pt;
@@ -136,5 +173,4 @@ li{
 #pinackle{
     position: absolute;
     top: 10%;
-}
 }
